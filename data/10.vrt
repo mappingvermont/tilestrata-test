@@ -1,0 +1,76 @@
+<VRTDataset rasterXSize="173453" rasterYSize="36683">
+  <SRS>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
+  <GeoTransform> -9.1282539047938306e+06,  1.5274600000000001e+02,  0.0000000000000000e+00,  1.5742165481614650e+06,  0.0000000000000000e+00, -1.5274600000000001e+02</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <ColorInterp>Red</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">africa_z_10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21135" RasterYSize="20613" DataType="Byte" BlockXSize="21135" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="21135" ySize="20613" />
+      <DstRect xOff="64862.5190862395" yOff="0" xSize="21135" ySize="20613" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">se_asia_z_10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="44457" RasterYSize="14661" DataType="Byte" BlockXSize="44457" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="44457" ySize="14661" />
+      <DstRect xOff="128995.521129257" yOff="4456.39552177321" xSize="44457" ySize="14661" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">south_america_z_10.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="34983" RasterYSize="30758" DataType="Byte" BlockXSize="34983" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="34983" ySize="30758" />
+      <DstRect xOff="0" yOff="5924.99656132873" xSize="34983" ySize="30758" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <ColorInterp>Green</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">africa_z_10.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="21135" RasterYSize="20613" DataType="Byte" BlockXSize="21135" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="21135" ySize="20613" />
+      <DstRect xOff="64862.5190862395" yOff="0" xSize="21135" ySize="20613" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">se_asia_z_10.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="44457" RasterYSize="14661" DataType="Byte" BlockXSize="44457" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="44457" ySize="14661" />
+      <DstRect xOff="128995.521129257" yOff="4456.39552177321" xSize="44457" ySize="14661" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">south_america_z_10.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="34983" RasterYSize="30758" DataType="Byte" BlockXSize="34983" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="34983" ySize="30758" />
+      <DstRect xOff="0" yOff="5924.99656132873" xSize="34983" ySize="30758" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <ColorInterp>Blue</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">africa_z_10.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="21135" RasterYSize="20613" DataType="Byte" BlockXSize="21135" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="21135" ySize="20613" />
+      <DstRect xOff="64862.5190862395" yOff="0" xSize="21135" ySize="20613" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">se_asia_z_10.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="44457" RasterYSize="14661" DataType="Byte" BlockXSize="44457" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="44457" ySize="14661" />
+      <DstRect xOff="128995.521129257" yOff="4456.39552177321" xSize="44457" ySize="14661" />
+    </SimpleSource>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">south_america_z_10.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="34983" RasterYSize="30758" DataType="Byte" BlockXSize="34983" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="34983" ySize="30758" />
+      <DstRect xOff="0" yOff="5924.99656132873" xSize="34983" ySize="30758" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
