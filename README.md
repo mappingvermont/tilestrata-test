@@ -36,3 +36,5 @@ like . . . have a few different endpoints and just use different mapnik XML to r
 	/tiles/glad-all/{z}/{x}/{y}/
 	/tiles/glad-encoded/{z}/{x}/{y}/
 	/tiles/glad-last-month/{z}/{x}/{y}/
+	
+should definitely be able to create a glad-all raster, with the input being a raw raster with intensity values 1 - 255 only where we have GLAD points. then make a lookup table/raster colorizer to make all the output the same pink alerts, but vary the alpha channel based on the 1-255 values.
