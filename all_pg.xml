@@ -10,6 +10,27 @@
   <Parameter name="maxzoom">22</Parameter>
 </Parameters>
 
+<Style name="z12" filter-mode="first" >
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <RasterSymbolizer opacity="1" scaling="near" />
+  </Rule>
+</Style>
+<Layer name="z12"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>z12</StyleName>
+    <Datasource>
+       <Parameter name="type">pgraster</Parameter>
+       <Parameter name="table">z_12</Parameter>
+       <Parameter name="**raster_field**">rast</Parameter>
+       <Parameter name="user">ubuntu</Parameter>
+       <Parameter name="dbname">test</Parameter>
+       <Parameter name="estimate_extent">false</Parameter>
+       <Parameter name="extent">-9128254,-4028924,17365887,1574217</Parameter>
+    </Datasource>
+  </Layer>
+  
 <Style name="z11" filter-mode="first" >
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
