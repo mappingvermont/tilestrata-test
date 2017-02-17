@@ -26,6 +26,8 @@ add new tables as OVERVIEWS for basetable, instead of just z_1, name them o_z12_
 that way we can simplify mapnik xml stylesheet
 pre-generate levels 0 - 7, or something -- tilemantle
 dockerize
+read this: https://github.com/mapnik/mapnik/wiki/PgRaster
+and be sure to define srid in connection string, will save a query to the database
 
 ## other ideas
 make a simple by-year raster, where band 1 = year, band 2 = confidence, and band 3 = intensity
